@@ -1,0 +1,12 @@
+/* Common Styling */
+
+body {
+  font-family: 'Open Sans', sans-serif;;
+}
+
+/* Footer Styling */
+.footer-wrapper {
+  color: #FFFFFF;
+  background-color: #13293D;
+  border-top: 4px solid #639FAB;
+}

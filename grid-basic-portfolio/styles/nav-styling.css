@@ -1,0 +1,18 @@
+/* Nav Styling */
+
+.nav-logo {
+  font-weight: 900;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  background-color: #639FAB;
+}
+
+.nav-link {
+  color: #13293D;
+  text-decoration: none;
+  transition: .5s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #639FAB;
+}

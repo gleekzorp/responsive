@@ -1,6 +1,6 @@
 /* Media Queries */
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 680px) {
   body {
     grid-template-rows: 200px 40px 1fr 40px 50px;
     grid-template-columns: 20px 1fr 20px;
@@ -28,26 +28,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFFFF;
     height: 50px;
     width: 100%;
-    /* border-top: 1px solid #BBCDE5; */
-  }
-  
-  .nav-links a {
     color: #FFFFFF;
-  }
-  
-  .nav-link-bottom {
-    border-top: 1px solid #BBCDE5;
     border-top: 1px solid #639FAB;
   }
 
   .nav-link:hover {
-    background-color: #BBCDE5;
+    background-color: #FFFFFF;
   }
 
   .nav-pipe {
     display: none;
+  }
+
+  .content-header {
+    text-align: center;
+  }
+
+  .content-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
   }
 }
