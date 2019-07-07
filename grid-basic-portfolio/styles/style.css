@@ -1,0 +1,58 @@
+
+
+/* Common Styling */
+
+body {
+  font-family: 'Open Sans', sans-serif;;
+}
+
+/* Nav Styling */
+
+.nav-logo {
+  font-weight: 900;
+  font-size: 1.2em;
+  color: #FFFFFF;
+  background-color: #639FAB;
+}
+
+.nav-links a {
+  color: #13293D;
+  text-decoration: none;
+}
+
+/* Content Styling */
+.content-wrapper {
+  color: #13293D;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 10px #13293D;
+  border-radius: 10px;
+  padding: 20px;
+}
+.content-header {
+  font-weight: 900;
+  font-size: 2em;
+  color: #13293D;
+}
+
+hr {
+  border: 1px solid #13293D;
+}
+.content-image {
+  width: 200px;
+  margin: 20px 20px 20px 0px;
+  border-radius: 10px;
+}
+
+.content-text {
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #13293D;
+}
+
+
+/* Footer Styling */
+.footer-wrapper {
+  color: #FFFFFF;
+  background-color: #13293D;
+  border-top: 4px solid #639FAB;
+}
