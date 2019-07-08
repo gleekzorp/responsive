@@ -1,21 +1,5 @@
-/* Content Styling */
-.content-wrapper {
-  color: #13293D;
-  background-color: #FFFFFF;
-  box-shadow: 1px 1px 10px #13293D;
-  border-radius: 10px;
-  padding: 20px;
-}
-.content-header {
-  font-weight: 900;
-  font-size: 2em;
-  color: #639FAB;
-}
-
-.content-header hr {
-  border: 1px solid #13293D;
-}
 .content-image {
+  float: left;
   width: 200px;
   margin: 20px 20px 20px 0px;
   border-radius: 10px;

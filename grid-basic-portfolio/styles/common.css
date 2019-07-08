@@ -1,11 +1,114 @@
-/* Common Styling */
+/* Page Grid Layout */
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* Footer Styling */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #BBCDE5;
+  height: 100vh;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-rows: 100px 40px auto 1fr 50px;
+  grid-template-areas: 
+    "navWrapper navWrapper navWrapper"
+    ". . ."
+    ". contentWrapper ."
+    ". . ."
+    " footerWrapper footerWrapper footerWrapper";
+}
+
+.nav-wrapper {
+  grid-area: navWrapper;
+}
+.content-wrapper {
+  grid-area: contentWrapper;
+}
 .footer-wrapper {
+  grid-area: footerWrapper;
+}
+
+/* Navigation Grid Layout and Styles */
+.nav-wrapper {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-areas: 
+    ". navContainer .";
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #13293D;
+}
+
+.nav-container {
+  grid-area: navContainer;
+  display: grid;
+  grid-template-columns: 200px 1fr 250px;
+  grid-template-areas: 
+    "navLogo . navLinks";
+}
+
+.nav-logo {
+  grid-row: 1;
+  grid-area: navLogo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  background-color: #639FAB;
+}
+
+.nav-links {
+  grid-row: 1;
+  grid-area: navLinks;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  color: #13293D;
+  text-decoration: none;
+  transition: .5s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #639FAB;
+}
+
+/* Content Layout and basic styles */
+
+.content-container {
+  display: grid;
+}
+
+.content-wrapper {
+  color: #13293D;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 10px #13293D;
+  border-radius: 10px;
+  padding: 20px;
+}
+.content-header {
+  font-weight: 900;
+  font-size: 2em;
+  color: #639FAB;
+}
+
+.content-header hr {
+  border: 1px solid #13293D;
+}
+
+/* Footer Layout */
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #FFFFFF;
   background-color: #13293D;
   border-top: 4px solid #639FAB;
