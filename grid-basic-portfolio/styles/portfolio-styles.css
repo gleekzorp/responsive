@@ -1,0 +1,58 @@
+.content-boxes {
+  display: grid;
+  /* grid-template-columns: 200px 200px; */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+.content-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* width: 200px; */
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+}
+
+.content-box-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 200px; */
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+  background-color: #639FAB;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.adventure {
+  background-image: url(../images/portfolio/adventure-js-thumb.jpeg);
+}
+.app-in-a-day-ice-cream {
+  background-image: url(../images/portfolio/app-in-a-day-ice-cream-thumb.jpeg);
+}
+.birthday {
+  background-image: url(../images/portfolio/birthday_thumbnail.jpeg);
+}
+.book-api {
+  background-image: url(../images/portfolio/book-api-thumb.jpeg);
+}
+.code {
+  background-image: url(../images/portfolio/code-thumb.jpeg);
+}
+.colorful-boxes {
+  background-image: url(../images/portfolio/colorfulBoxes-thumb.jpeg);
+}
+.devcamp-fries {
+  background-image: url(../images/portfolio/devcamp-fries-thumb.jpeg);
+}
+.hex {
+  background-image: url(../images/portfolio/hex-thumb.jpeg);
+}
+.tip-calculator {
+  background-image: url(../images/portfolio/tip-calculator-thumb.jpeg);
+}
